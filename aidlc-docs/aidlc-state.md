@@ -8,7 +8,7 @@
 ## Workspace State
 - **Existing Code**: No
 - **Reverse Engineering Needed**: No
-- **Workspace Root**: /home/ec2-user/environment/aidlc-table-order
+- **Workspace Root**: /home/ec2-user/environment/unit_2/aidlc-test
 
 ## Code Location Rules
 - **Application Code**: Workspace root (NEVER in aidlc-docs/)
@@ -53,11 +53,11 @@
 - [ ] Build and Test - EXECUTE (after all units)
 
 #### Unit 2: Customer Frontend
-- [ ] Functional Design - EXECUTE
-- [ ] NFR Requirements - EXECUTE
-- [ ] NFR Design - EXECUTE
+- [x] Functional Design - COMPLETED (2026-04-06T15:56:00Z)
+- [x] NFR Requirements - COMPLETED (2026-04-06T16:07:00Z)
+- [x] NFR Design - COMPLETED (2026-04-06T16:14:00Z)
 - [ ] Infrastructure Design - SKIP
-- [ ] Code Generation - EXECUTE
+- [x] Code Generation - COMPLETED (2026-04-06T16:30:00Z)
 - [ ] Build and Test - EXECUTE (after all units)
 
 #### Unit 3: Admin Frontend
@@ -73,7 +73,7 @@
 
 ## Current Status
 - **Lifecycle Phase**: CONSTRUCTION
-- **Current Unit**: Unit 1 - Backend API & Database
-- **Current Stage**: Day 0 Contract Complete
-- **Next Stage**: Code Generation (Unit 1: Backend)
-- **Status**: Ready to proceed to Code Generation (병렬 개발 준비 완료)
+- **Current Unit**: Unit 2 - Customer Frontend  
+- **Current Stage**: Code Generation Complete
+- **Next Stage**: Unit 3 - Admin Frontend (Functional Design)
+- **Status**: Unit 2 Code Generation 완료 - 70+ files, 8/8 stories 구현, Mock API 완성
