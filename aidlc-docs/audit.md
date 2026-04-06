@@ -852,3 +852,28 @@ AI-DLC 워크플로우를 시작해봅시다."
 **Context**: Unit 3 (Admin Frontend) 개발 완료
 
 ---
+
+## All Units Integration to Main Branch
+**Timestamp**: 2026-04-06T17:10:00Z
+**User Input**: "응 모두 통합해"
+**AI Response**: Unit 2와 Unit 3를 main 브랜치에 순차적으로 통합 완료
+**Context**: 3개 유닛 모두 main 브랜치에 통합
+**Details**:
+- 로컬 main 브랜치 변경사항 푸시 완료
+- Unit 2 (Customer Frontend) 머지: origin/feature/unit2-customer-frontend → main
+  - 충돌 해결: aidlc-state.md, audit.md
+  - customer-frontend/ 디렉토리 추가
+  - 70+ 파일 추가 (React, TypeScript, Mock API)
+- Unit 3 (Admin Frontend) 머지: origin/unit-3 → main
+  - 충돌 해결: aidlc-state.md, audit.md
+  - src/, tests/ 등 Admin Frontend 파일 추가 (루트 레벨)
+  - 36+ 파일 추가 (React, TypeScript, SSE)
+- 최종 푸시: origin/main
+**Result**: main 브랜치에 3개 유닛 모두 통합 완료
+**Current Structure**:
+- backend/ (Unit 1: Backend API & Database)
+- customer-frontend/ (Unit 2: Customer Frontend)
+- src/, tests/ (Unit 3: Admin Frontend)
+**Current Commit**: 83f28f8 Merge: Integrate Unit 3 (Admin Frontend) into main
+
+---
