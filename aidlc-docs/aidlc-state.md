@@ -74,6 +74,6 @@
 ## Current Status
 - **Lifecycle Phase**: CONSTRUCTION
 - **Current Unit**: Unit 1 - Backend API & Database
-- **Current Stage**: NFR Design Complete
+- **Current Stage**: Day 0 Contract Complete
 - **Next Stage**: Code Generation (Unit 1: Backend)
-- **Status**: Ready to proceed to Code Generation
+- **Status**: Ready to proceed to Code Generation (병렬 개발 준비 완료)

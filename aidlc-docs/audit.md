@@ -404,3 +404,34 @@ AI-DLC 워크플로우를 시작해봅시다."
 **Next**: 사용자 승인 대기
 
 ---
+
+## Day 0 Contract - Discussion
+**Timestamp**: 2026-04-06T11:46:00Z
+**User Input**: "day 0를 하려면 unit 1,2,3의 Infrastructure Design까지 완료가 되어야해?"
+**AI Response**: "아니요, Unit 1 Functional Design만 있으면 Day 0 Contract 생성 가능"
+**Context**: Day 0 Contract 필요 조건 명확화
+
+---
+
+## Day 0 Contract - Request
+**Timestamp**: 2026-04-06T11:47:00Z
+**User Input**: "응 day 0 contract을 만들어줘."
+**AI Response**: Day 0 Contract 생성 시작
+**Context**: 3개 유닛 병렬 개발을 위한 사전 합의 아티팩트 생성
+
+---
+
+## Day 0 Contract - Complete
+**Timestamp**: 2026-04-06T11:48:00Z
+**AI Action**: Day 0 Contract 생성 완료
+**AI Response**: 5개 파일 생성 (api-contract.yaml, database-schema.md, mock-data-samples.json, typescript-types.ts, README.md)
+**Context**: 병렬 개발을 위한 사전 합의 완료
+**Details**:
+- api-contract.yaml: OpenAPI 3.0 형식, 17개 API 엔드포인트 정의
+- database-schema.md: 9개 테이블 스키마, ERD, Foreign Key 관계
+- mock-data-samples.json: 샘플 데이터 + API 응답 예시
+- typescript-types.ts: 50+ TypeScript 타입 정의
+- README.md: 사용 가이드 및 통합 전략
+**Next**: Unit 1 Code Generation 시작 가능
+
+---
