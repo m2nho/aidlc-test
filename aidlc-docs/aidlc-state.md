@@ -61,11 +61,11 @@
 - [ ] Build and Test - EXECUTE (after all units)
 
 #### Unit 3: Admin Frontend
-- [ ] Functional Design - EXECUTE
-- [ ] NFR Requirements - EXECUTE
-- [ ] NFR Design - EXECUTE
+- [x] Functional Design - COMPLETED (2026-04-06T15:52:00Z)
+- [x] NFR Requirements - COMPLETED (2026-04-06T16:02:00Z)
+- [x] NFR Design - COMPLETED (2026-04-06T16:10:00Z)
 - [ ] Infrastructure Design - SKIP
-- [ ] Code Generation - EXECUTE
+- [x] Code Generation - COMPLETED (2026-04-06T17:02:00Z)
 - [ ] Build and Test - EXECUTE (after all units)
 
 ### OPERATIONS PHASE
@@ -73,7 +73,7 @@
 
 ## Current Status
 - **Lifecycle Phase**: CONSTRUCTION
-- **Current Unit**: Unit 1 - Backend API & Database
-- **Current Stage**: Day 0 Contract Complete
-- **Next Stage**: Code Generation (Unit 1: Backend)
-- **Status**: Ready to proceed to Code Generation (병렬 개발 준비 완료)
+- **Current Unit**: Unit 3 - Admin Frontend (COMPLETED)
+- **Current Stage**: Code Generation Complete
+- **Next Stage**: Build and Test (모든 Unit 완료 후 실행)
+- **Status**: Unit 3 완료. Unit 1 (Backend), Unit 2 (Customer Frontend) Code Generation 필요
