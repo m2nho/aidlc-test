@@ -48,9 +48,9 @@
 - [x] Functional Design - COMPLETED (2026-04-06T11:36:00Z)
 - [x] NFR Requirements - COMPLETED (2026-04-06T11:41:00Z)
 - [x] NFR Design - COMPLETED (2026-04-06T11:45:00Z)
-- [ ] Infrastructure Design - SKIP
-- [ ] Code Generation - EXECUTE (next)
-- [ ] Build and Test - EXECUTE (after all units)
+- [x] Infrastructure Design - SKIP
+- [x] Code Generation - COMPLETED (2026-04-06T11:55:00Z)
+- [ ] Build and Test - EXECUTE (after all units complete)
 
 #### Unit 2: Customer Frontend
 - [ ] Functional Design - EXECUTE
@@ -74,6 +74,6 @@
 ## Current Status
 - **Lifecycle Phase**: CONSTRUCTION
 - **Current Unit**: Unit 1 - Backend API & Database
-- **Current Stage**: Day 0 Contract Complete
-- **Next Stage**: Code Generation (Unit 1: Backend)
-- **Status**: Ready to proceed to Code Generation (병렬 개발 준비 완료)
+- **Current Stage**: Code Generation Complete
+- **Next Stage**: Unit 2/3 개발 또는 Build and Test
+- **Status**: Unit 1 개발 완료, Unit 2/3 개발 대기 중
